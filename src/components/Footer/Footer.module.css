@@ -1,0 +1,170 @@
+.contact{
+    width: 1920px;
+    height: 268px;
+    top: 4404px;
+}
+
+.contact1{
+    display: flex;
+    gap: 10px;
+}
+
+.contact1 p{
+    margin-top: 3px;
+}
+
+.Footer {
+    display: flex;
+    width: 100vw;
+    height: 479px;
+    border-style: solid;
+    border-color: #BDA96C;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    width: 553px;
+    height: 479px;
+    background-color: #BDA96C;
+}
+
+.right {
+    display: flex;
+    justify-content: space-between;
+    background-color: #151236;
+    width: 967px;
+    height: 479px;
+    left: 653px;
+
+}
+
+.flex {
+    width: 291px;
+    height: 241.994140625px;
+    top: 4791px;
+    left: 181px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logoimg {
+    margin-left: 150px;
+    width: 128px;
+    height: 127.99444580078125px;
+    top: 4791px;
+    left: 262px;
+}
+
+.content {
+    width: 291px;
+    height: 50px;
+    top: 4930.994140625px;
+    left: 181px;
+    place-content: center;
+}
+
+.bold {
+    font-family: Century Gothic;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-right: -140px;
+    color: #151236;
+}
+
+.thin {
+    font-family: Century Gothic;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-right: -140px;
+    margin-top: -15px;
+    color: #565656;
+}
+
+.icons{
+    width: 195px;
+    height: 36px;
+    left: 229px;
+    gap: 17px;
+    margin-top: 30px;
+    margin-left: 120px;
+    display: flex;
+}
+
+.box{
+    float: right;
+    width: 600px;
+    margin-left: 60px;
+    margin-top: 140px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.column h3 {
+    font-weight: bold;
+    color: #BDA96C;
+}
+.column p {
+    margin: 4px 0;
+    color: #BDA96C;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: #BDA96C;
+    margin: 20px 0;
+}
+
+/* Media query for 800px breakpoint */
+@media screen and (max-width: 800px) {
+    .Footer {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .left,
+    .right {
+        width: 100%;
+        height: auto;
+        align-items: center;
+    }
+
+    .flex,
+    .logoimg,
+    .content,
+    .icons,
+    .box {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .box {
+        margin-top: 20px;
+    }
+
+    .bold,
+    .thin {
+        margin: 0;
+        text-align: center;
+    }
+
+    .line {
+        margin: 10px 0;
+    }
+}
